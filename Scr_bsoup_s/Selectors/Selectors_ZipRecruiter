@@ -1,0 +1,27 @@
+ZipRecruiter
+Job Titles:
+
+CSS: .job_content h2 a::text
+XPath: //div[@class="job_content"]/h2/a/text()
+Companies:
+
+CSS: .job_content div.company.name span::text
+XPath: //div[@class="job_content"]/div[@class="company name"]/span/text()
+Locations:
+
+CSS: .job_content div.location span::text
+XPath: //div[@class="job_content"]/div[@class="location"]/span/text()
+Salary Range:
+
+CSS: .job_details__salary span::text
+XPath: //div[@class="job_details__salary"]/span/text()
+Job Description:
+
+CSS: .job_description__content p::text
+XPath: //div[@class="job_description__content"]/p/text()
+Additional Information (Job Type, Posted Date):
+
+CSS: .job_details__additional span::text (various classes within for specific info)
+XPath: //div[@class="job_details__additional"]/span/text()
+
+individual job listings: class: .job_listing

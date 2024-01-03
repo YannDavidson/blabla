@@ -1,0 +1,25 @@
+LinkedIn
+Job Titles:
+
+CSS: a.entity-result__title-link.ember-view
+XPath: //a[@class="entity-result__title-link ember-view"]
+Companies:
+
+CSS: .jobs-search-results__list-item__company-name
+XPath: //span[@class="jobs-search-results__list-item__company-name"]
+Locations:
+
+CSS: .jobs-search-results__list-item__location
+XPath: //span[@class="jobs-search-results__list-item__location"]
+Easy Apply Button:
+
+CSS: .jobs-search-results__list-item__btn--primary
+XPath: //button[@class="jobs-search-results__list-item__btn--primary"]
+Job Description:
+
+Requires headless browser (Selenium): Find element by class description__content and extract text
+XPath (requires Selenium): //div[@class="description__content"]
+Additional Information (Posted Date, Job Type):
+
+CSS: .jobs-search-results__list-item__metadata (various classes within for specific info)
+XPath: //span[@class="jobs-search-results__list-item__metadata"]

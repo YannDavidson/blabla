@@ -1,0 +1,27 @@
+Glassdoor
+Job Titles:
+
+CSS: .jobsCard_title a::text
+XPath: //div[@class="jobsCard_title"]/a/text()
+Companies:
+
+CSS: .jobsCard_companyLink span::text
+XPath: //div[@class="jobsCard_companyLink"]/span/text()
+Locations:
+
+CSS: .jobsCard_location a::text
+XPath: //div[@class="jobsCard_location"]/a/text()
+Salary Range:
+
+CSS: .salary-text::text
+XPath: //div[@class="salary-text"]/text()
+Job Description:
+
+CSS: .jobDescriptionText div p::text
+XPath: //div[@class="jobDescriptionText"]/div/p/text()
+Additional Information (e.g., Job Type, Posted Date):
+
+CSS: .jobInfoItem__detail::text
+XPath: //div[@class="jobInfoItem__detail"]/text()
+
+individual job listings: Class: .jobsCard

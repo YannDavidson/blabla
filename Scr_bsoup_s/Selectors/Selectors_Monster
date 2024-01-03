@@ -1,0 +1,25 @@
+Monster
+Job Titles:
+
+CSS: .job-card__title a span::text
+XPath: //div[@class="job-card__title"]/a/span/text()
+Companies:
+
+CSS: .job-card__company-name a::text
+XPath: //div[@class="job-card__company-name"]/a/text()
+Locations:
+
+CSS: .job-card__location span::text
+XPath: //div[@class="job-card__location"]/span/text()
+Salary Range:
+
+CSS: .job-card__salary span::text
+XPath: //div[@class="job-card__salary"]/span/text()
+Job Description:
+
+CSS: .job-card__content p::text
+XPath: //div[@class="job-card__content"]/p/text()
+Additional Information (e.g., Job Type, Posted Date):
+
+CSS: .job-card__details li span::text
+XPath: //div[@class="job-card__details"]/li/span/text()

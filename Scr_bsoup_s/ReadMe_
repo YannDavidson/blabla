@@ -1,0 +1,19 @@
+General
+Selectors: need to inspect the HTML of each job listing site to determine the appropriate selectors. CSS selectors will vary widely between sites
+
+Complete Selectors: Provide full set of CSS or XPath selectors for each job board to extract desired data fields (title, company, location, etc.).
+URL Patterns: Verify and adjust URL patterns to accurately reflect how each job board constructs search URLs for specific keywords and locations.
+Pagination: Implement logic to handle pagination if job listings span multiple pages
+
+Specifics:
+
+LinkedIn 
+Authenticate with a LinkedIn account for better results.
+Use PhantomJS or headless Chrome with Selenium for efficient scraping.
+Rotate IP addresses to avoid getting flagged.
+
+ZipRecruiter/Indeed
+They use JavaScript to render parts of the page, need to use a headless browser like Selenium to get access to all the content.
+robots.txt and terms of service when scraping.
+Use of a dedicated web scraping tool like ParseHub or Octoparse to scrape a large amount of data.
+

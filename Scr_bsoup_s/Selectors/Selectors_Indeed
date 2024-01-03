@@ -1,0 +1,29 @@
+Indeed
+Job Titles:
+
+CSS: .jobtitle h2 a::text
+XPath: //div[@class="jobtitle"]/h2/a/text()
+Companies:
+
+CSS: .company span::text
+XPath: //div[@class="company"]/span/text()
+Locations:
+
+CSS: .location span::text
+XPath: //span[@class="location"]/text()
+Salary Range:
+
+CSS: .salaryText::text
+XPath: //span[@class="salaryText"]/text()
+Job Description:
+
+CSS: .jobsnippet::text
+XPath: //div[@class="jobsnippet"]/text()
+Additional Information (Job Type, Posted Date):
+
+CSS: .date::text (for posted date)
+CSS: .sponsored_tag.jobtype::text (for job type)
+XPath: //span[@class="date"]/text() (for posted date)
+XPath: //span[@class="sponsored_tag jobtype"]/text() (for job type)
+
+individual job listings: class: .jobcard
